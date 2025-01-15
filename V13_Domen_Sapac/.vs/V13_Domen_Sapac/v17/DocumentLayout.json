@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Domen\\Documents\\4R1\\C#\\V13_Domen_Sapac\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25E03C5A-4D37-4CED-905D-5A3AE26EB934}|V13_Domen_Sapac\\V13_Domen_Sapac.csproj|c:\\users\\domen\\documents\\4r1\\c#\\v13_domen_sapac\\v13_domen_sapac\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25E03C5A-4D37-4CED-905D-5A3AE26EB934}|V13_Domen_Sapac\\V13_Domen_Sapac.csproj|solutionrelative:v13_domen_sapac\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25E03C5A-4D37-4CED-905D-5A3AE26EB934}|V13_Domen_Sapac\\V13_Domen_Sapac.csproj|C:\\Users\\Domen\\Documents\\4R1\\C#\\V13_Domen_Sapac\\v13_domen_sapac\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{25E03C5A-4D37-4CED-905D-5A3AE26EB934}|V13_Domen_Sapac\\V13_Domen_Sapac.csproj|solutionrelative:v13_domen_sapac\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Domen\\Documents\\4R1\\C#\\V13_Domen_Sapac\\V13_Domen_Sapac\\Form1.cs",
+              "RelativeDocumentMoniker": "V13_Domen_Sapac\\Form1.cs",
+              "ToolTip": "C:\\Users\\Domen\\Documents\\4R1\\C#\\V13_Domen_Sapac\\V13_Domen_Sapac\\Form1.cs",
+              "RelativeToolTip": "V13_Domen_Sapac\\Form1.cs",
+              "ViewState": "AgIAAIsCAAAAAAAAAAAWwKcCAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T14:09:18.09Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Domen\\Documents\\4R1\\C#\\V13_Domen_Sapac\\V13_Domen_Sapac\\Form1.cs",
+              "RelativeDocumentMoniker": "V13_Domen_Sapac\\Form1.cs",
+              "ToolTip": "C:\\Users\\Domen\\Documents\\4R1\\C#\\V13_Domen_Sapac\\V13_Domen_Sapac\\Form1.cs [Design]",
+              "RelativeToolTip": "V13_Domen_Sapac\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T14:09:18.457Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

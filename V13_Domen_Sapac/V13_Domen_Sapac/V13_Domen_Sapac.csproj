@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{25E03C5A-4D37-4CED-905D-5A3AE26EB934}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>V13_Domen_Sapac</RootNamespace>
+    <AssemblyName>V13_Domen_Sapac</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\background color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\center.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\checkmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\left align.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\new_file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\open file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\right align.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\save file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\text color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\locked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\unlocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\9025899_text_align_right_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\9104141_sun_bright_brightness_light mode_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\9104269_night_night mode_moon_crescent_dark mode_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\3018534_ambience_context_fix_framework_options_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\3643779_clock_hour_ticker_time_times_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\avtor %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\pomoč.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\opis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Help\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\marker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikone\print.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
